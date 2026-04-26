@@ -22,6 +22,9 @@ El dataset utilizado fue diseñado por el **Canadian Institute for Cybersecurity
 └── .gitignore              # Archivos excluidos de Git
 ``` 
 
-## 📅 Planificación del Proyecto
+## Links
 
-[🔗 Abrir en Notion](https://www.notion.so/34ddea5633d880f89c51d3c0518d1850?v=34ddea5633d881ef91eb000c68ffb4b7)
+[🔗 Planificación en Notion](https://www.notion.so/34ddea5633d880f89c51d3c0518d1850?v=34ddea5633d881ef91eb000c68ffb4b7)
+
+
+[📈 Proyecto en Colab](https://colab.research.google.com/github/jotaeleb/tif-ciencias-de-datos/blob/main/PORYECTO.ipynb)
