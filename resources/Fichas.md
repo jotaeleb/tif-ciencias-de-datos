@@ -143,11 +143,3 @@ Este dataset contiene **78 variables numéricas** y **1 variable categórica** (
 | **Web Attack - SQL Injection** | Inyección SQL |
 | **Infiltration** | Infiltración de red |
 | **Heartbleed** | Explotación de vulnerabilidad Heartbleed |
-
-# ⚠️ Problemas del dataset
-
-* **Tamaño del archivo**: 2,8M de filas puede ser lento en máquinas locales. Nosotros vamos a trabajar con arquivos .parquet ya que optimiza el almacenamiento mediante una estructura columnar que maximiza la compresión y acelera las consultas al leer solo los datos necesarios.
-
-* **Valores infinitos**: las features Flow Bytes/s y Flow Packets/s contienen np.inf. Convertirlos a NaN y decidir si eliminamos esas filas o imputarles un valor promedio.
-
-* **Desbalance severo de clases**: BENIGN representa ~80% de los registros. Requiere estrategia de balanceo (undersampling, class_weight, o SMOTE).
