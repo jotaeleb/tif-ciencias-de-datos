@@ -18,7 +18,10 @@ El dataset utilizado fue diseñado por el **Canadian Institute for Cybersecurity
 │   └── dataset_parte_4.parquet
 ├── notebooks/              # Jupyter Notebook principal del desarrollo
 │   ├── proyecto.ipynb
-├── resources/              # Archivos complementarios como Ficha del proyecto
+├── resources/              # Archivos complementarios
+│   ├── ficha_del_proyecto.md
+│   ├── diccionario_de_datos.md
+│   └── clase_label.md
 ├── README.md               # Descripción general del proyecto
 └── .gitignore              # Archivos excluidos de Git
 ```
