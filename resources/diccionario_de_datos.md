@@ -105,4 +105,4 @@ Este dataset contiene **78 variables numéricas** y **1 variable categórica** (
 
 | # | Nombre de variable | Descripción | Tipo de dato | Valores aceptados | ¿Acepta faltantes? |
 | --- | --- | --- | --- | --- | --- |
-| 79 |  Label | Variable objetivo (target). Etiqueta que indica si el flujo corresponde a tráfico normal (BENIGN) o a un tipo específico de ataque. ⚠ El nombre real en el CSV tiene un espacio al inicio: ' Label'. Usar df.columns.str.strip() al cargar. | Categórico nominal (object) | 15 valores: BENIGN, DoS Hulk, PortScan, DDoS, DoS GoldenEye, FTP-Patator, SSH-Patator, DoS slowloris, DoS Slowhttptest, Bot, Web Attack–Brute Force, Web Attack–XSS, Infiltration, Web Attack–SQL Injection, Heartbleed | ❌  No |
+| 79 |  Label | Variable objetivo (target). Etiqueta que indica si el flujo corresponde a tráfico normal (BENIGN) o a un tipo específico de ataque. | Categórico nominal (object) | 15 valores: BENIGN, DoS Hulk, PortScan, DDoS, DoS GoldenEye, FTP-Patator, SSH-Patator, DoS slowloris, DoS Slowhttptest, Bot, Web Attack–Brute Force, Web Attack–XSS, Infiltration, Web Attack–SQL Injection, Heartbleed | ❌  No |
