@@ -31,7 +31,6 @@ El dataset fue diseñado por el **Canadian Institute for Cybersecurity (CIC)**. 
 ├── notebooks/                   # Jupyter Notebook principal del desarrollo
 │   └── proyecto.ipynb
 ├── resources/                   # Archivos complementarios
-│   ├── ficha_del_proyecto.md
 │   ├── diccionario_de_datos.md
 │   └── clase_label.md
 ├── README.md                    # Descripción general del proyecto
