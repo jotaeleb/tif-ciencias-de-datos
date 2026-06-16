@@ -20,7 +20,7 @@ El dataset fue diseñado por el **Canadian Institute for Cybersecurity (CIC)**. 
 
 - **Eda**   [![Eda en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jotaeleb/tif-ciencias-de-datos/blob/main/proyecto_eda.ipynb)
 
-- **Entrenamiento**   [![Entrenamiento en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jotaeleb/tif-ciencias-de-datos/blob/main/proyecto_entrenamiento.ipynb)
+- **Modelado**   [![Entrenamiento en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jotaeleb/tif-ciencias-de-datos/blob/main/proyecto_modelado.ipynb)
 
 ## 🗂️ Estructura del Proyecto
 
@@ -30,11 +30,15 @@ El dataset fue diseñado por el **Canadian Institute for Cybersecurity (CIC)**. 
 │   ├── dataset_parte_2.parquet
 │   ├── dataset_parte_3.parquet
 │   ├── dataset_parte_4.parquet
-│   └── df_muestra.parquet
+│   ├── dataset_limpio_parte_1.parquet
+│   ├── dataset_limpio_parte_2.parquet
+│   ├── dataset_limpio_parte_3.parquet
+│   ├── dataset_limpio_parte_4.parquet
+│   └── dataset_limpio_submuestreo.parquet
 ├── notebooks/                   # Jupyter Notebooks del desarrollo
 │   ├── proyecto_eda.ipynb
-│   ├── proyecto_clean.ipynb
-│   └── proyecto_entrenamiento.ipynb
+│   ├── proyecto_datasetSubmuestreo.ipynb
+│   └── proyecto_modelado.ipynb
 ├── resources/                   # Archivos complementarios
 │   ├── diccionario_de_datos.md
 │   └── clase_label.md
